@@ -1,37 +1,15 @@
 <html>
-<head><title>Web Guesser</title></head>
-
-<body>
-  <p><%= message %></p>
-  <!-- <p>The SECRET NUMBER is <%= number %></p> -->
-
-  <form>
-    <input type='text' name='guess' />
-    <input type='submit' value='Guess!' />
-  </form>
-
-</body>
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- <html>
   <head><title>Web Guesser</title></head>
-  <body>
-    <p><%= message %></p>
-    <p>The SECRET NUMBER is <%= number %></p>
+    <style>body {
+        background: <%= background_color %>;
+      }</style>
+      <body>
+        <h1>Web Guesser</h1>
+        <h2><%= message %></h2>
+  <p>The SECRET NUMBER is <%= number %></p>
     <form>
-      <input type= 'text' name= 'guess'/>
-      <input type= 'submit' name= 'Guess!'/>
-  </form>
+      <input type='text' name='guess' />
+      <input type='submit' value='Guess!' />
+    </form>
   </body>
-</html> -->
+</html>
